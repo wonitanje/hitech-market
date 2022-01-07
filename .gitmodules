@@ -2,3 +2,7 @@
 	path = hitech-market_api
 	url = https://github.com/wonitanje/hitech-market_api
 	branch = master
+[submodule "hitech-market_web"]
+	path = hitech-market_web
+	url = https://github.com/Igor-hub-it/hitech-market_web
+	branch = master

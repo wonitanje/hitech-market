@@ -1,0 +1,23 @@
+version: '3.9'
+services:
+  api:
+    # env_file:
+    #   - ./hitech-market_api/.env
+    extends:
+      file: ./hitech-market_api/docker-compose.yml
+      service: app
+
+  mongodb:
+    extends:
+      file: ./hitech-market_api/docker-compose.yml
+      service: mongodb
+
+  web:
+    extends:
+      file: ./hitech-market_web/docker-compose.yml
+      service: app
+    environment:
+      - VUE_APP_API_URL=http://hitech-market_api/api
+
+networks:
+  hitech-market: null
