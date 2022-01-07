@@ -4,7 +4,7 @@ Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https
 
 ## Launch
 ```sh
-docker-compose up --build
+docker-compose up --build -d
 ```
 Application will be able locally
   * web: [localhost](http://localhost:80)
