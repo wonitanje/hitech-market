@@ -1,0 +1,3 @@
+[submodule "hitech-market_api"]
+	path = hitech-market_api
+	url = https://github.com/wonitanje/hitech-market_api
