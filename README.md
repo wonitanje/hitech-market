@@ -1,6 +1,7 @@
 # Hitech Market
 ## Installation
-Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/#install-compose) on machine
+Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/#install-compose) on machine \
+Clone the repository with the --recurse-submodules flag to also load the submodule repositories
 
 ## Launch
 ```sh
